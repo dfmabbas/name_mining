@@ -24,8 +24,8 @@ listSeed = ["tor", "an", "rap", "ri", "kal", "cal", "oo",
             "nus", "ora", "nep", "ton", "ry", "ars", "ju", "ura",
             "py", "tal", "cry", "bng", "ta", "the", "at", "we", "thy", "you", "me", "im",
             "am", "is", "are", "ger", "les", "ess", "lee", "gy", "er", "nol", "nil",
-            "so", "ti", "tan", "omi", "cy", "nul", "nl", "xi", "ko", "qx", "xq",
-            "oo", "ss", "zz", "cc", "ir", "ok", "dar", "sam"]
+            "so", "ti", "tan", "omi", "cy", "nul", "nl", "xi",
+            "ko", "qx", "xq", "ir", "ok", "dar", "sam"]
 
 
 f = open("list.txt", "r")
