@@ -27,7 +27,7 @@ os.system(f"say {name}")
 
 
 
-![](demo.mp4)
+![demo](demo.png)
 
 
 
