@@ -32,6 +32,18 @@ f = open("list.txt", "r")
 listName = f.read().split(',')
 f.close()
 
+
+class colors:
+    HEADER = '\033[95m'
+    OKBLUE = '\033[94m'
+    OKGREEN = '\033[92m'
+    WARNING = '\033[93m'
+    FAIL = '\033[91m'
+    ENDC = '\033[0m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
+
+
 while True:
     while len(name) < 6:
         index = randint(0, len(listSeed) - 1)
@@ -45,16 +57,17 @@ while True:
     with open("list.txt", "a") as text_file:
         text_file.write(f"{name}, ")
 
-    max = randint(0, 100)
+    max = randint(1, 100)
     for progress in range(0, max, (100 / max).__int__()):
         os.system("tput sc")
-        print(f" -- >> {progress},...")
+        print(f" - - >> {colors.BOLD}{colors.FAIL}{colors.UNDERLINE}{progress}{colors.ENDC} \
+              {colors.OKBLUE}...{colors.ENDC}")
         os.system("tput rc")
         os.system("tput ed")
 
     os.system("tput rc")
     os.system("tput ed")
-    print(f"---->> {name}")
+    print(f"---->> {colors.BOLD}{colors.OKBLUE}{name}{colors.ENDC}")
     os.system(f"say {name}")
 
     name = ""
