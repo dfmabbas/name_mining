@@ -11,6 +11,12 @@ and ... :)
 
 
 
+[![Donate](https://img.shields.io/badge/Donate-IRAN-green)](https://idpay.ir/oky2abbas)
+<br>**Funding for faster development**  (`only works with IRAN bank cards`)
+<br>**Payment gateway**: https://idpay.ir/oky2abbas
+
+
+
 ##### How to use it?
 
 ```bash
