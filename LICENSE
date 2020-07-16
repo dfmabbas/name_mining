@@ -1,49 +1,6 @@
-I built this script for my own needs, **maybe you need it**.
-
-The names are produced on the basis of the first ‍‍`seeds`, which are very special grains.
-
-What are the names made for use in what is useful?
-‍‍`username`
-`password`
-`Unicorn and non-repetitive name`
-`Product names and projects`
-and ... :)
-
-
-
-[![Donate](https://img.shields.io/badge/Donate-green)](https://idpay.ir/oky2abbas)
-
-**Bitcoin (BTC) Donate: `bc1qhgvnx2nfzr0qep5fnsevyyn59k32wpe7q0c7nh`**
-
-**Ethereum (ETH) Donate: `0x0dA44bbcc2d7BBF11eb070A81CB24c4eE7Bf1AD9`**
-
-
-
-##### How to use it?
-
-```bash
-python3 mining.py
-```
-
-
-
-**Note :** If you encounter an error, find and ‍`deactivate` the following line in the source code.
-
-```python
-os.system(f"say {name}")
-```
-
-
-
-![demo](demo.png)
-
-
-
-##### License
-```
 MIT License
 
-Copyright (c) 2018 Abbas Naqdi
+Copyright (c) 2020 abbas naqdi
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -61,7 +18,4 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE
-```
-
-‍
+SOFTWARE.
